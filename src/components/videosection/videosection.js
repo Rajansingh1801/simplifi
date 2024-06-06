@@ -8,10 +8,7 @@ export default function Videosection() {
     <div className="videosection">
       <div>
         <video className="videocont" autoPlay loop muted>
-          <source
-            src="https://everguardimage.s3.amazonaws.com/video/1698922381079.mp3"
-            type="video/mp4"
-          />
+          <source src={vid2} type="video/mp4" />
         </video>
         <div className="bottlecont">
           <img src={bottle} alt="Bottle" className="bottleimg" />
